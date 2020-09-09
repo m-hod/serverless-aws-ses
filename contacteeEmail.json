@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "ContacteeTemplate",
+    "SubjectPart": "Thanks for the message, {{first_name}}!",
+    "HtmlPart": "<div><h3>Thanks for the message, {{first_name}}!</h3><p>We're looking forward to working with you and will get back to you as soon as possible.</p><p>If you have any other questions, or you wanted to change something about your original query, feel free to send another, or contact us directly on our number below.</p><div><h3>Your details:</h3><ul><li><p>Name: {{first_name}} {{last_name}}</p></li><li><p>Phone: {{phone}}</p></li><li><p>Email: {{email}}</p></li></ul><p><strong>Message</strong></p><p>{{message}}</p></div></div>",
+    "TextPart": "Thanks for the message, {{first_name}}!\r\nWe're looking forward to working with you and will get back to you as soon as possible.\r\nIf you have any other questions, or you wanted to change something about your original query, feel free to send another, or contact us directly on our number below.\r\nYour details:\r\nName: {{first_name}} {{last_name}}\r\nPhone: {{phone}}\r\nEmail: {{email}}\r\nMessage\r\n{{message}}"
+  }
+}
