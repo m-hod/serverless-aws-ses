@@ -19,7 +19,10 @@ export const sendEmail = async (event, _context, callback) => {
   const response = {
     statusCode: 200,
     headers: {
-      "Access-Control-Allow-Origin": "http://localhost:3000",
+      "Access-Control-Allow-Origin": [
+        "https://hopkinsmarketing.org",
+        "https://www.hopkinsmarketing.org",
+      ],
       "Access-Control-Allow-Credentials": true,
     },
     body: JSON.stringify({
