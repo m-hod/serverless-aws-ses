@@ -34,12 +34,12 @@ export const sendEmail = async (event, _context, callback) => {
 
 function sendSESEmail(data: Email) {
   const emailParams = {
-    Source: data.sender, // SES SENDING EMAIL
+    Source: "hopkinsmarketinggroup@gmail.com", // SES SENDING EMAIL
     Destination: {
-      ToAddresses: [data.receiver], // SES RECEIVING EMAIL
-      BccAddresses: [data.sender],
+      ToAddresses: ["hopkinsmarketinggroup@gmail.com"], // SES RECEIVING EMAIL
+      // BccAddresses: [data.sender],
     },
-    ReplyToAddresses: data.reply_to ? [data.reply_to] : undefined,
+    // ReplyToAddresses: data.reply_to ? [data.reply_to] : undefined,
     Message: {
       Body: {
         Text: {
